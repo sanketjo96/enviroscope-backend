@@ -1,7 +1,6 @@
 import type { AWS } from '@serverless/typescript';
 
 import sync from '@functions/sync';
-import { AppTables } from 'src/constants/tables';
 
 const serverlessConfiguration: AWS = {
   service: 'sync-service',
@@ -16,9 +15,23 @@ const serverlessConfiguration: AWS = {
       shouldStartNameWithService: true,
     },
     environment: {
+      DYNAMO_ACCOUNTS_TABLE: 'ACCOUNTS',
+      DYNAMO_CPE_BOOKINGS_TABLE: 'CPE_BOOKINGS',
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
       NODE_OPTIONS: '--enable-source-maps --stack-trace-limit=1000',
     },
+    iamRoleStatements: [
+      {
+        Effect: "Allow",
+        Action: [
+          "dynamodb:Query",
+          "dynamodb:Scan",
+          "dynamodb:GetItem",
+          "dynamodb:PutItem",
+        ],
+        Resource: "*",
+      },
+    ],
   },
   // import the function via paths
   functions: { sync },
@@ -40,7 +53,7 @@ const serverlessConfiguration: AWS = {
       "accounts": {
         Type: "AWS::DynamoDB::Table",
         Properties: {
-          TableName: AppTables.DYNAMO_ACCOUNTS_TABLE,
+          TableName: "${self:provider.environment.DYNAMO_ACCOUNTS_TABLE}",
           AttributeDefinitions: [
             {
               AttributeName: "id",
@@ -60,7 +73,7 @@ const serverlessConfiguration: AWS = {
       "booking": {
         Type: "AWS::DynamoDB::Table",
         Properties: {
-          TableName: AppTables.DYNAMO_CPE_BOOKINGS_TABLE,
+          TableName: "${self:provider.environment.DYNAMO_CPE_BOOKINGS_TABLE}",
           AttributeDefinitions: [
             {
               AttributeName: "id",

@@ -1,4 +1,0 @@
-export enum AppTables {
-    DYNAMO_ACCOUNTS_TABLE = 'ACCOUNTS',
-    DYNAMO_CPE_BOOKINGS_TABLE = 'CPE_BOOKINGS'
-}
