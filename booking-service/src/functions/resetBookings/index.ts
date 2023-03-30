@@ -7,7 +7,7 @@ export default {
     {
       http: {
         method: 'post',
-        path: 'booking',
+        path: 'reset/bookings',
         request: {
           schemas: {
             'application/json': schema,
