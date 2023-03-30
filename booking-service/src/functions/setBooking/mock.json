@@ -1,0 +1,9 @@
+{
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "pathParameters": {
+    "accountId": "87b6eaa9-39d1-4c32-a10f-6ed311fda306"
+  },
+  "body": "{\"user\": \"Frederic\", \"isBooked\": \"true\"}"
+}

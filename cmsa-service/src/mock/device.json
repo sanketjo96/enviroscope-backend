@@ -1,0 +1,746 @@
+{
+    "device": [
+        {
+            "version": 0,
+            "id": "32820087",
+            "name": "E4:C0:E2:55:47:A7",
+            "macaddress": [
+                "E4:C0:E2:55:47:A7"
+            ],
+            "cpe-ref": "E4C0E25547A9",
+            "connection-state": "connected",
+            "ipv4-address": {
+                "address": "192.168.178.1"
+            },
+            "device-type": "18",
+            "category": "18",
+            "infrastructure": true,
+            "hidden": false,
+            "health": "green",
+            "statistics": {
+                "first-seen-on": "2023-03-16T09:54:31.352072Z",
+                "last-seen-on": "2023-03-28T06:38:20Z",
+                "current-network-speed": 0
+            },
+            "device-fingerprint": {
+                "source": "dhcp",
+                "level": 0,
+                "model": "F3896LG",
+                "device-type": "18",
+                "wifi-capability": []
+            },
+            "discovery": {
+                "source": "dhcp",
+                "level": 0,
+                "model": "F3896LG",
+                "category": "18",
+                "wifi-capability": []
+            },
+            "_api-references": {
+                "acs-cpe-id": "E4C0E25547A9"
+            },
+            "blocked": {
+                "status": false
+            },
+            "last-refresh": "2023-03-28T06:51:27Z",
+            "mac-filter-schedules": {
+                "enable": false,
+                "schedules": [
+                    {
+                        "day": "monday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "18"
+                    }
+                ]
+            },
+            "round-trip": {
+                "last-update": "2023-03-28T06:51:28Z",
+                "parameters": [
+                    "mac-filter-schedules",
+                    "blocked",
+                    "_api-references",
+                    "discovery.model",
+                    "ipv6-address",
+                    "device-fingerprint.model",
+                    "personalisation",
+                    "statistics",
+                    "hidden",
+                    "health",
+                    "infrastructure",
+                    "location",
+                    "ipv4-address",
+                    "connection-state",
+                    "cpe-ref",
+                    "mac"
+                ]
+            }
+        }
+    ]
+}

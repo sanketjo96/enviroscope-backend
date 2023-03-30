@@ -1,0 +1,897 @@
+{
+    "cpe": [
+        {
+            "version": 1679490808141,
+            "id": "E4C0E25547A9",
+            "manufacturer": "SAGEMCOM",
+            "model": "F3896LG",
+            "family": "Mercury v2+",
+            "firmware": "1.1",
+            "class": "modem",
+            "subclass": "docsis",
+            "capability": [
+                "manageable",
+                "telephony",
+                "docsis",
+                "bridge",
+                "dyndns",
+                "wan-uplink",
+                "dhcp",
+                "custom-local-ipnetwork",
+                "custom-dns",
+                "ethernet-lan",
+                "wifi-ap",
+                "wifi-client",
+                "wifi-backhaul",
+                "guest-wifi",
+                "managed-wifi",
+                "wifi6"
+            ],
+            "serial-number": "YAAS12572240",
+            "last-active-date": "2023-03-28T06:38:20Z",
+            "last-reboot-date": "2023-03-24T08:38:17Z",
+            "lan-macaddress": "E4:C0:E2:55:47:A7",
+            "connection-state": "connected",
+            "enable": true,
+            "configured": false,
+            "light": {},
+            "docsis": {
+                "cablemodem-macaddress": "E4:C0:E2:55:47:A7"
+            },
+            "wan-uplink": {
+                "mode": "router",
+                "wan-macaddress": "E4:C0:E2:55:47:A9",
+                "mtu-size": 1978,
+                "ipv4": {
+                    "address": "10.15.92.24"
+                }
+            },
+            "ethernet": [],
+            "wifi-radios": {
+                "sync-private-wifi-status": "disabled",
+                "2.4": {
+                    "enable": true,
+                    "band": "2.4",
+                    "autochannel": true,
+                    "current-channel": 6,
+                    "current-channel-width": "20",
+                    "supported-channel-widths": [
+                        {
+                            "supported-channel-width": "40",
+                            "supported-channels": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ]
+                        },
+                        {
+                            "supported-channel-width": "20",
+                            "supported-channels": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ]
+                        }
+                    ],
+                    "current-operating-standards": "g,n,ax",
+                    "supported-operating-standards": [
+                        "b",
+                        "g",
+                        "n",
+                        "ax"
+                    ],
+                    "private": {
+                        "network": "home",
+                        "wifi-network": "Test5",
+                        "wps-method": "pushbutton",
+                        "wps-status": "failed"
+                    },
+                    "guest": {
+                        "network": "guest",
+                        "wifi-network": "Ziggo-gast9161025"
+                    }
+                },
+                "5.0": {
+                    "enable": true,
+                    "band": "5",
+                    "autochannel": true,
+                    "current-channel": 124,
+                    "current-channel-width": "80",
+                    "supported-channel-widths": [
+                        {
+                            "supported-channel-width": "40",
+                            "supported-channels": [
+                                36,
+                                40,
+                                44,
+                                48,
+                                52,
+                                56,
+                                60,
+                                64,
+                                100,
+                                104,
+                                108,
+                                112,
+                                116,
+                                120,
+                                124,
+                                128,
+                                132,
+                                136
+                            ]
+                        },
+                        {
+                            "supported-channel-width": "80",
+                            "supported-channels": [
+                                36,
+                                40,
+                                44,
+                                48,
+                                52,
+                                56,
+                                60,
+                                64,
+                                100,
+                                104,
+                                108,
+                                112,
+                                116,
+                                120,
+                                124,
+                                128
+                            ]
+                        },
+                        {
+                            "supported-channel-width": "20",
+                            "supported-channels": [
+                                36,
+                                40,
+                                44,
+                                48,
+                                52,
+                                56,
+                                60,
+                                64,
+                                100,
+                                104,
+                                108,
+                                112,
+                                116,
+                                120,
+                                124,
+                                128,
+                                132,
+                                136,
+                                140
+                            ]
+                        }
+                    ],
+                    "current-operating-standards": "a,n,ac,ax",
+                    "supported-operating-standards": [
+                        "a",
+                        "n",
+                        "ac",
+                        "ax"
+                    ],
+                    "private": {
+                        "network": "home",
+                        "wifi-network": "Test5",
+                        "wps-method": "pushbutton",
+                        "wps-status": "failed"
+                    },
+                    "guest": {
+                        "network": "guest",
+                        "wifi-network": "Ziggo-gast9161025"
+                    }
+                },
+                "operational-mode": "optimized"
+            },
+            "device-ref": "32820087",
+            "tier-of-speed": 1070,
+            "_api-references": {
+                "acs-cpe-id": "E4C0E25547A9"
+            },
+            "mac-filter-schedules": {
+                "enable": false,
+                "schedules": [
+                    {
+                        "day": "monday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "monday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "wednesday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "tuesday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "sunday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "friday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "23"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "saturday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "7"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "8"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "9"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "3"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "4"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "5"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "6"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "0"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "1"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "2"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "10"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "11"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "14"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "15"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "12"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "13"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "18"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "19"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "16"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "17"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "21"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "22"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "20"
+                    },
+                    {
+                        "day": "thursday",
+                        "hour": "23"
+                    }
+                ]
+            },
+            "last-refresh": "2023-03-28T06:51:25Z",
+            "one-time-cloud-based-restore": false
+        }
+    ],
+    "active-modem": "E4C0E25547A9"
+}
