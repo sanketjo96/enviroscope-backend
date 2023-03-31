@@ -4,7 +4,7 @@ import cpe from '@functions/cpe';
 import device from '@functions/device';
 
 const serverlessConfiguration: AWS = {
-  service: 'cmsa-service',
+  service: 'business-service',
   frameworkVersion: '3',
   plugins: ['serverless-esbuild'],
   provider: {

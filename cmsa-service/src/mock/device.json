@@ -1,47 +1,10 @@
 {
     "device": [
         {
-            "version": 0,
-            "id": "32820087",
+            "id": "a123bc",
             "name": "E4:C0:E2:55:47:A7",
-            "macaddress": [
-                "E4:C0:E2:55:47:A7"
-            ],
             "cpe-ref": "E4C0E25547A9",
             "connection-state": "connected",
-            "ipv4-address": {
-                "address": "192.168.178.1"
-            },
-            "device-type": "18",
-            "category": "18",
-            "infrastructure": true,
-            "hidden": false,
-            "health": "green",
-            "statistics": {
-                "first-seen-on": "2023-03-16T09:54:31.352072Z",
-                "last-seen-on": "2023-03-28T06:38:20Z",
-                "current-network-speed": 0
-            },
-            "device-fingerprint": {
-                "source": "dhcp",
-                "level": 0,
-                "model": "F3896LG",
-                "device-type": "18",
-                "wifi-capability": []
-            },
-            "discovery": {
-                "source": "dhcp",
-                "level": 0,
-                "model": "F3896LG",
-                "category": "18",
-                "wifi-capability": []
-            },
-            "_api-references": {
-                "acs-cpe-id": "E4C0E25547A9"
-            },
-            "blocked": {
-                "status": false
-            },
             "last-refresh": "2023-03-28T06:51:27Z"
         }
     ]

@@ -1,41 +1,14 @@
 {
     "cpe": [
         {
-            "version": 1679490808141,
-            "id": "E4C0E25547A9",
-            "manufacturer": "SAGEMCOM",
-            "model": "F3896LG",
-            "family": "Mercury v2+",
-            "firmware": "1.1",
-            "class": "modem",
-            "subclass": "docsis",
-            "serial-number": "YAAS12572240",
+            "id": "1",
+            "serial-number": "ABC",
             "last-active-date": "2023-03-28T06:38:20Z",
             "last-reboot-date": "2023-03-24T08:38:17Z",
             "lan-macaddress": "E4:C0:E2:55:47:A7",
             "connection-state": "connected",
-            "enable": true,
-            "configured": false,
-            "light": {},
-            "docsis": {
-                "cablemodem-macaddress": "E4:C0:E2:55:47:A7"
-            },
-            "wan-uplink": {
-                "mode": "router",
-                "wan-macaddress": "E4:C0:E2:55:47:A9",
-                "mtu-size": 1978,
-                "ipv4": {
-                    "address": "10.15.92.24"
-                }
-            },
-            "ethernet": [],
             "device-ref": "32820087",
-            "tier-of-speed": 1070,
-            "_api-references": {
-                "acs-cpe-id": "E4C0E25547A9"
-            },
             "last-refresh": "2023-03-28T06:51:25Z",
-            "one-time-cloud-based-restore": false
         }
     ],
     "active-modem": "E4C0E25547A9"

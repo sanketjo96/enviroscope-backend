@@ -5,7 +5,7 @@
 - Install aws CLI with IAM user and make sure its working
 - There are below services within repo and they can be deployed individually
     - booking-service - to return modem and booking info
-    - cmsa-service - mock for cmsa backend
+    - business-service - mock for cmsa backend
     - sync-service - to sync latest account data to system
 - Please follow below steps in same order
     - Clone repo with all services
@@ -18,7 +18,7 @@
         - Run "npm run backfill-accounts"
             - Create sample data of 30 accounts in dynamo DB
         - Confirm from console that you have tables and sample data
-    - Go to cmsa-service
+    - Go to business-service
         - Install dependencies using npm
         - Update aws region from env if required
         - Run "npm run deploy", this will do
