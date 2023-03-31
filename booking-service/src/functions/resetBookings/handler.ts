@@ -1,8 +1,5 @@
-import type { ValidatedEventAPIGatewayProxyEvent } from '@libs/api-gateway';
 import { formatJSONResponse } from '@libs/api-gateway';
 import { middyfy } from '@libs/lambda';
-
-import schema from './schema';
 
 /**
  * This should work as master reset for booked modems. Once trigger
@@ -11,7 +8,7 @@ import schema from './schema';
  * @param event 
  * @returns 
  */
-const resetBookings: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
+const resetBookings = async (event) => {
   return formatJSONResponse({
     message: `Hello from re-set bookings API!`,
     event,
